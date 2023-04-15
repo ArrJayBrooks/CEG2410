@@ -30,9 +30,13 @@
 
 - Configuring a Windows Server to be a Domain Controller
   - Outline of basic steps, resource(s) used
-- Domain Name:
-- Domain Controller Name:
-- Domain DNS IP:
+
+I configured the IPv4 settings to assign the server the IP address of 10.0.0.18/16 and the DNS server of 10.0.0.2. Then, I renamed the server DC01.<br>
+I installed AD services from PowerShell, and used server manager to setup the root domain name, ad.kanto.com
+
+- Domain Name: ad.kanto.com
+- Domain Controller Name: DC01.ad.kanto.com
+- Domain DNS IP: 10.0.0.2
 
 ## AD Structure
 
